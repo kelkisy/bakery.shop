@@ -12,6 +12,9 @@
 }
 .footer-navigation-list {
   flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .footer-adress {
   flex-basis: 50%;
@@ -20,6 +23,13 @@
 }
 .adress-list {
   flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.adress-social-logo {
+  display: flex;
+  gap: 22px;
 }
 .adress-info {
   flex-basis: 50%;

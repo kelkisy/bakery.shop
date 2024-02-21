@@ -10,7 +10,9 @@
       position: absolute;
       width: 352px;
       height: 2px;
+      bottom: 24px;
       background-color: var(--color-gray);
+
       content: '';
     }
     &::before {
